@@ -1,0 +1,35 @@
+{
+    "db83-44b6-ac92": {
+        "fields": {
+            "aa90-4c83-8e26": {
+                "id": "aa90-4c83-8e26", 
+                "name": "name", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "676d-4b10-952f": {
+                "id": "676d-4b10-952f", 
+                "name": "price", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "0ade-475e-af7f": {
+                "id": "0ade-475e-af7f", 
+                "name": "decription", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "f64c-49b3-b8b4": {
+                "id": "f64c-49b3-b8b4", 
+                "name": "image", 
+                "required": false, 
+                "type": "image", 
+                "vary": false
+            }
+        }, 
+        "name": "Helios L - Yellow Dark Blue"
+    }
+}

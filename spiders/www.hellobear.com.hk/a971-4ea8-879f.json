@@ -1,0 +1,132 @@
+{
+    "extractors": {},
+    "id": "a971-4ea8-879f",
+    "name": "product",
+    "page_id": "",
+    "page_type": "item",
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    },
+                    "container_id": null,
+                    "id": "6a8d-4a98-913c",
+                    "item_container": true,
+                    "repeated": false,
+                    "required": [],
+                    "schema_id": "db83-44b6-ac92",
+                    "selector": ".pd-box",
+                    "siblings": 0,
+                    "tagid": null,
+                    "text-content": "#portia-content"
+                },
+                {
+                    "accept_selectors": [
+                        ".Product-title"
+                    ],
+                    "container_id": "6a8d-4a98-913c",
+                    "data": {
+                        "5279-44c3-a860": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "aa90-4c83-8e26",
+                            "required": false
+                        }
+                    },
+                    "id": "4de9-49b3-8bfc",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".pd-box > div:nth-child(2) > .ProductDetail-product > .ProductDetail-product-info > .box-default > .Product-title",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" pd-box \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-product \")]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-product-info \")]/*[contains(concat(\" \", @class, \" \"), \" box-default \")]/*[contains(concat(\" \", @class, \" \"), \" Product-title \")]"
+                },
+                {
+                    "accept_selectors": [
+                        ".price-regular"
+                    ],
+                    "container_id": "6a8d-4a98-913c",
+                    "data": {
+                        "6e02-4104-b96d": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "676d-4b10-952f",
+                            "required": false
+                        }
+                    },
+                    "id": "06ae-429e-b5b1",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".pd-box > div:nth-child(2) > .ProductDetail-product > .ProductDetail-product-info > .box-default > .product-detail-actions > .not-same-price > .price-box > .global-primary",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" pd-box \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-product \")]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-product-info \")]/*[contains(concat(\" \", @class, \" \"), \" box-default \")]/*[contains(concat(\" \", @class, \" \"), \" product-detail-actions \")]/*[contains(concat(\" \", @class, \" \"), \" not-same-price \")]/*[contains(concat(\" \", @class, \" \"), \" price-box \")]/*[contains(concat(\" \", @class, \" \"), \" global-primary \")]"
+                },
+                {
+                    "accept_selectors": [
+                        ".ProductDetail-description"
+                    ],
+                    "container_id": "6a8d-4a98-913c",
+                    "data": {
+                        "94d4-4f1b-b169": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "0ade-475e-af7f",
+                            "required": false
+                        }
+                    },
+                    "id": "6c0b-42d3-8000",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".pd-box > .ProductDetail-additionalInfo > .col-xs-12 > .Tabset > .active > .ProductDetail-description",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" pd-box \")]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-additionalInfo \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]/*[contains(concat(\" \", @class, \" \"), \" Tabset \")]/*[contains(concat(\" \", @class, \" \"), \" active \")]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-description \")]"
+                },
+                {
+                    "accept_selectors": [
+                        ".pd-box > .ProductDetail-additionalInfo > .col-xs-12 > .Tabset > .active > .ProductDetail-gallery > ul > li > .sl-lazy-image"
+                    ],
+                    "container_id": "6a8d-4a98-913c",
+                    "data": {
+                        "bf60-44a0-89a2": {
+                            "attribute": "src",
+                            "extractors": {},
+                            "field": "f64c-49b3-b8b4",
+                            "required": false
+                        }
+                    },
+                    "id": "b371-4e4c-acf1",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": true,
+                    "required": [],
+                    "selection_mode": "css",
+                    "selector": ".pd-box > .ProductDetail-additionalInfo > .col-xs-12 > .Tabset > .active > .ProductDetail-gallery > ul > li > .sl-lazy-image",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" pd-box \")]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-additionalInfo \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]/*[contains(concat(\" \", @class, \" \"), \" Tabset \")]/*[contains(concat(\" \", @class, \" \"), \" active \")]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-gallery \")]/ul/li/*[contains(concat(\" \", @class, \" \"), \" sl-lazy-image \")]"
+                }
+            ]
+        }
+    },
+    "scrapes": "db83-44b6-ac92",
+    "spider": "www.hellobear.com.hk",
+    "url": "https://www.hellobear.com.hk/products/germany-helios-glass-inter-vaccum-flask-1000ml-yellow-dark-blue",
+    "version": "0.13.3"
+}
